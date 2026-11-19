@@ -1,0 +1,26 @@
+# Local Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.vscode/
+.env
+.DS_Store
+Thumbs.db
+
+# Research data, checkpoints and run products
+/datasets/*
+!/datasets/README.md
+/model_ckpt/*
+!/model_ckpt/README.md
+/outputs/
+log_OneDCNN_*/
+pred_blocks_*/
+*.pth
+*.pt
+*.log
+*.tif
+*.tiff
+!examples/demo.tif
+*.vrt
